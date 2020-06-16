@@ -11,4 +11,9 @@ data = {'Month' : pd.Series(['January','February','March','April','May'
 
 df = pd.DataFrame(data) #pandas DataFrame object looks like spreadsheet
 
-print(df)
+dfc = pd.read_csv(r'./rain.csv') #using csv file
+
+dfj = pd.read_json(r'./rain.json')#using json file
+
+print("Our data frame:")
+print(dfj,"\n")
