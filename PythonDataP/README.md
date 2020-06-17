@@ -1,0 +1,1 @@
+The python program contains way of using Pandas module for data processing and  data cleaning. Furthermore, it opens the csv and json file in the folder through methods and provide some statistical functions like mean, median, standard deviations
