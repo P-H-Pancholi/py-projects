@@ -35,3 +35,21 @@ for index,row in dfj.iterrows():
     if any(row.isnull()):
         count += 1
 print("The number of rows that contains nun is "+ str(count))
+
+#statistical Analysis
+
+print("\n","Mean:")
+print(dfclean.mean())
+
+print("\n","Median:")
+print(dfclean.median())
+
+print("\n Standard Deviation:")
+print(dfclean.std())
+
+#mean of rainfall for first few months
+
+rainfall = df['Rainfall'][0:3]
+print("\n",rainfall)
+print("\n","Mean rainfall : ",rainfall.mean())
+
