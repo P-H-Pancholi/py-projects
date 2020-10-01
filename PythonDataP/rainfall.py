@@ -21,7 +21,7 @@ print(dfj,"\n")
 
 #Remove rows with missing values
 dfclean = dfj.dropna(0)
-print("Our data after removing nan rows:\n",dfclean)
+print("My data after removing nan rows:\n",dfclean)
 
 #fill the missing values with zeros
 
